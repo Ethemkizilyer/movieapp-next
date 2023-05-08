@@ -5,7 +5,7 @@ export default async function MovieDetail({ params }) {
   const imagePath = "https://image.tmdb.org/t/p/original";
 
   const data = await fetch(
-    `https://api.themoviedb.org/3/tv/${serieid}?api_key=d37aa81d99fd5b49201922d61&language=en-US`
+    `https://api.themoviedb.org/3/tv/${serieid}?api_key=d37aa81d99fd5b49201922d61ad5b2fd&language=en-US`
   );
   const res = await data.json();
 

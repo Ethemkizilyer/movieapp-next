@@ -34,7 +34,7 @@ function App({ movies }) {
   };
 
   return (
-    <div className="max-w-[1600px] sm:h-[780px] w-full m-auto py-10 px-4 group relative">
+    <div className="max-w-[1600px] sm:h-[780px] w-full m-auto py-10 px-4 group relative text-white">
       <div
         style={{
           backgroundImage: `url(${

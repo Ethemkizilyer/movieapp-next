@@ -7,7 +7,7 @@ export default async function ListOfMovies({params}) {
 const {currentpage} = params
 
   const data = await fetch(
-    `https://api.themoviedb.org/3/movie/popular/?api_key=d37aa81d99fd5b49201922d61&page=${currentpage}`
+    `https://api.themoviedb.org/3/movie/popular/?api_key=d37aa81d99fd5b49201922d61ad5b2fd&page=${currentpage}`
   );
   const res = await data.json();
 

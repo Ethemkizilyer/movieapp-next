@@ -11,10 +11,10 @@ export default async function page({ params }) {
     const data =
       classification === "trending"
         ? await fetch(
-            `https://api.themoviedb.org/3/${classification}/all/day?api_key=d37aa81d99fd5b49201922d61&page=${page}`
+            `https://api.themoviedb.org/3/${classification}/all/day?api_key=d37aa81d99fd5b49201922d61ad5b2fd&page=${page}`
           )
         : await fetch(
-            `https://api.themoviedb.org/3/${mediatype}/${classification}?api_key=d37aa81d99fd5b49201922d61&language=en-US&page=${page}`
+            `https://api.themoviedb.org/3/${mediatype}/${classification}?api_key=d37aa81d99fd5b49201922d61ad5b2fd&language=en-US&page=${page}`
           );
     const res = await data.json();
 
